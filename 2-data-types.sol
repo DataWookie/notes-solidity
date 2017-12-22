@@ -4,6 +4,9 @@ contract DataTypesContract {
     // uint: a 32 byte (256 bit) unsigned integer
     //
     uint i;
+    //
+    // If not provided with an initial value then the default initial value consists of bytes with zero value.
+    //
     uint256 j = 42;                                             // uint256 is an alias for uint
     //
     // There are a variety of smaller types: uint8, uint16, uint24... uint256.
