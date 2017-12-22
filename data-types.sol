@@ -1,3 +1,5 @@
+pragma solidity ^0.4.18;
+
 contract dataTypesContract {
     // uint: a 32 byte (256 bit) unsigned integer
     //
