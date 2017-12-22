@@ -29,6 +29,9 @@ contract BaseContract {
         selfdestruct(creator);  
     }
 
+    // Define an interface. Should be implemented in a derived contract.
+    //
+    function action(uint _number) public returns (bool);
 }
 
 contract DerivedContract is BaseContract {
