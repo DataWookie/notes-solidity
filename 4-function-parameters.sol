@@ -6,9 +6,6 @@ contract FunctionParameters {
     function f1(uint _i, uint _j) public {
     }
 
-    // The output parameters can be declared with the same syntax after the returns keyword. 
-    // For example, suppose we wished to return  one value: then we would write this:
-
     // One input parameter.
     // One output parameter.
     //
