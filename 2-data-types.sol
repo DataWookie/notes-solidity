@@ -21,6 +21,24 @@ contract DataTypesContract {
     //
     int constant version = 8;
 
+    // ARITHMETIC OPERATORS
+    //
+    // +, -, *, /
+    // %                    (remainder)
+    // **                   (exponentiation)
+    //
+    // i++, i--             (post increment and decrement)
+    // ++i, --i             (pre increment and decrement)
+    //
+    // +=, -=, *=, /=, %=
+    //
+    // &                    (bitwise AND)
+    // |                    (bitwise OR)
+    // ^                    (bitwise XOR)
+    // ~                    (bitwise NOT)
+    // >>                   (right shift)
+    // <<                   (left shift)
+
     // Units of Currency
     //
     // The basic unit of currency is 1 Wei.
@@ -49,7 +67,13 @@ contract DataTypesContract {
 
     // Boolean.
     //
-    bool the_truth = true; 
+    bool the_truth = true;
+
+    // LOGICAL OPERATORS
+    //
+    // &&                   (logical AND)
+    // ||                   (logical OR)
+    // !                    (logical NOT)
 
     // address: a 20 byte (160 bit) Ethereum address
     //
