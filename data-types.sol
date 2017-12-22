@@ -1,6 +1,6 @@
 pragma solidity ^0.4.18;
 
-contract dataTypesContract {
+contract DataTypesContract {
     // uint: a 32 byte (256 bit) unsigned integer
     //
     uint i;
@@ -21,9 +21,25 @@ contract dataTypesContract {
     //
     int constant version = 8;
 
-    // Explicit typecasting.
+    // Units of Currency
     //
-    i = uint(k);
+    // The basic unit of currency is 1 Wei.
+    //
+    // 1 wei - equivalent to an integer 1.
+    //
+    // Other units: finney, szabo and ether.
+    //
+    uint wei_in_ether = 1 ether;
+
+    // Units of time
+    //
+    // The basic unit of time is 1 second.
+    //
+    // 1 seconds - equivalent to an integer 1.
+    //
+    // Other units: minutes, hours, days, weeks and years.
+    //
+    uint seconds_in_year = 1 years;
 
     // byte: a single byte
     //
@@ -50,8 +66,8 @@ contract dataTypesContract {
     //
     // Array methods and attributes
     //
-    dynamic_array.push(5)                                       // Returns new length of array
-    dynamic_array.length
+    // dynamic_array.push(5)                                    // Returns new length of array
+    // dynamic_array.length
 
     // Dictionary
     //
@@ -64,7 +80,7 @@ contract dataTypesContract {
         ACTIVE,
         INACTIVE,
         DELETED
-    }; 
+    }
     //
     State public current_state = State.PENDING;
     //
